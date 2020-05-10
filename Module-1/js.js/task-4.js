@@ -14,5 +14,7 @@ if (countDroid === null) {
     message = 'Недостаточно средств на счету!';
 } else if (balance > 0 && countDroid > 0) {
     message = `Вы купили ${countDroid} дроидов, на счету осталось ${balance} кредитов.`;
+} else {
+    message = 'Видите значения!';
 }
 console.log(message);
